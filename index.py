@@ -11,7 +11,7 @@ class Ball():
         self.oval = canvas.create_oval(200, 200, 215, 215, fill=color)
         self.dir = [-3, -2, -1, 1, 2, 3]
         self.x = random.choice(self.dir)
-        self.y = -2
+        self.y = -1
         self.touch_bottom = False
 
     def touch_platform(self, ball_pos):
