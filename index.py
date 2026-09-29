@@ -12,6 +12,7 @@ class Ball():
         self.dir = [-3, -2, -1, 1, 2, 3]
         self.x = random.choice(self.dir)
         self.y = -1
+        self.y = -2
         self.touch_bottom = False
 
     def touch_platform(self, ball_pos):
